@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RAISA\\source\\repos\\RB.TBC.FinalProjectAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI.csproj|c:\\users\\raisa\\source\\repos\\rb.tbc.finalprojectapi\\rb.tbc.finalprojectapi\\controllers\\smtpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI.csproj|solutionrelative:rb.tbc.finalprojectapi\\controllers\\smtpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI.csproj|c:\\users\\raisa\\source\\repos\\rb.tbc.finalprojectapi\\rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI.csproj|solutionrelative:rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmtpController.cs",
+              "DocumentMoniker": "C:\\Users\\RAISA\\source\\repos\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI\\Controllers\\SmtpController.cs",
+              "RelativeDocumentMoniker": "RB.TBC.FinalProjectAPI\\Controllers\\SmtpController.cs",
+              "ToolTip": "C:\\Users\\RAISA\\source\\repos\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI\\Controllers\\SmtpController.cs",
+              "RelativeToolTip": "RB.TBC.FinalProjectAPI\\Controllers\\SmtpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T13:30:51.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RAISA\\source\\repos\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RB.TBC.FinalProjectAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\RAISA\\source\\repos\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProjectAPI\\Program.cs",
+              "RelativeToolTip": "RB.TBC.FinalProjectAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T13:29:58.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

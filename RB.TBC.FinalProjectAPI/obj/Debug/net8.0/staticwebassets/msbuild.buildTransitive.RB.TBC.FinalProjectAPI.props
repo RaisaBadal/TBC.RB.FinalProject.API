@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RB.TBC.FinalProjectAPI.props" />
+</Project>
