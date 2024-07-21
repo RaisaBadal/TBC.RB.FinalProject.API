@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RB.TBC.FinalProjectAPI.InterfaceServices;
-using RB.TBC.FinalProjectAPI.Models;
+using RB.TBC.FinalProject.Application.Interface;
+using RB.TBC.FinalProject.Application.Models;
 
 namespace RB.TBC.FinalProjectAPI.Controllers
 {

@@ -1,0 +1,13 @@
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\bin\Debug\net8.0\RB.TBC.FinalProject.Domain.deps.json
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\bin\Debug\net8.0\RB.TBC.FinalProject.Domain.dll
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\bin\Debug\net8.0\RB.TBC.FinalProject.Domain.pdb
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.csproj.AssemblyReference.cache
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.AssemblyInfoInputs.cache
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.AssemblyInfo.cs
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.sourcelink.json
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.dll
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\refint\RB.TBC.FinalProject.Domain.dll
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\RB.TBC.FinalProject.Domain.pdb
+C:\Users\marjanishvili\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProjectDomain\obj\Debug\net8.0\ref\RB.TBC.FinalProject.Domain.dll
