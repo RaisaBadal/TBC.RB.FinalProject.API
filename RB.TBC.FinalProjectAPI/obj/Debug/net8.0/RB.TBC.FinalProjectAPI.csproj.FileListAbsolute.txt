@@ -30,3 +30,17 @@ C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\obj\De
 C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\obj\Debug\net8.0\RB.TBC.FinalProjectAPI.pdb
 C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\obj\Debug\net8.0\RB.TBC.FinalProjectAPI.genruntimeconfig.cache
 C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\obj\Debug\net8.0\ref\RB.TBC.FinalProjectAPI.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\DnsClient.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\Snappier.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\RAISA\source\repos\RB.TBC.FinalProjectAPI\RB.TBC.FinalProjectAPI\obj\Debug\net8.0\RB.TBC.FinalProjectAPI.sourcelink.json

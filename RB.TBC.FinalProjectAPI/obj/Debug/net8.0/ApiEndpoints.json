@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "RB.TBC.FinalProjectAPI.Controllers.ContactUsController",
+    "Method": "SendMesaggeToAdmin",
+    "RelativePath": "api/ContactUs/SendMessageToAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RB.TBC.FinalProjectAPI.Models.ContactUsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
