@@ -694,19 +694,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TabaxmelaPC\\.nuget\\packages\\": {}
+    "C:\\Users\\aapkh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
+      "projectUniqueName": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
       "projectName": "RB.TBC.FinalProject.Application",
-      "projectPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
-      "packagesPath": "C:\\Users\\TabaxmelaPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\obj\\",
+      "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
+      "packagesPath": "C:\\Users\\aapkh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TabaxmelaPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aapkh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -721,8 +721,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
-              "projectPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
+            "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
             }
           }
         }

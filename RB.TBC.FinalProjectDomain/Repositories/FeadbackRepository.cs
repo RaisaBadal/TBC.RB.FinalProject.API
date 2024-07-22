@@ -27,14 +27,14 @@ namespace RB.TBC.FinalProject.Domain.Repositories
         #region GetAllAsync
         public async Task<IEnumerable<Feadback>> GetAllAsync()
         {
-            return await Dbset.ToListAsync();
+            return await Dbset.Include(io=>io.User).ToListAsync();
         }
         #endregion
 
         #region GetByIdAsync
         public async Task<Feadback> GetByIdAsync(string id)
         {
-            var res = await Dbset.FindAsync(id);
+            var res = await Dbset.Include(i=>i.User).FirstOrDefaultAsync(i=>i.FeadbackId==id);
             if (res is not null)
             {
                 return res;

@@ -643,19 +643,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TabaxmelaPC\\.nuget\\packages\\": {}
+    "C:\\Users\\aapkh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
       "projectName": "RB.TBC.FinalProject.Domain",
-      "projectPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
-      "packagesPath": "C:\\Users\\TabaxmelaPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
+      "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+      "packagesPath": "C:\\Users\\aapkh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TabaxmelaPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aapkh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

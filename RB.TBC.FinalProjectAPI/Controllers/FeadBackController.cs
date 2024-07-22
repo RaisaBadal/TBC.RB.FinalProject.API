@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RB.TBC.FinalProject.Application.Interface;
 using RB.TBC.FinalProject.Application.Models;
+using RB.TBC.FinalProject.Application.Models.Response;
 using System.Security.Claims;
 
 namespace RB.TBC.FinalProjectAPI.Controllers
@@ -44,7 +45,7 @@ namespace RB.TBC.FinalProjectAPI.Controllers
         /// </summary>
         /// <returns>A response containing aList of Feadbacks </returns>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<FeadbackModel>>> GetAllAsync()
+        public async Task<ActionResult<IEnumerable<FeadbackModelResponse>>> GetAllAsync()
         {
 
             var res = await ser.GetAllAsync();
@@ -59,7 +60,7 @@ namespace RB.TBC.FinalProjectAPI.Controllers
         /// </remarks>
         [HttpGet]
         [Route("{id:alpha}")]
-        public async Task<ActionResult<FeadbackModel>> GetByIdAsync([FromRoute]string id)
+        public async Task<ActionResult<FeadbackModelResponse>> GetByIdAsync([FromRoute]string id)
         {
             var res = await ser.GetByIdAsync(id);
             if (res is not null)

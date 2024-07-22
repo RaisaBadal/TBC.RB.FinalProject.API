@@ -2,13 +2,9 @@
 using Microsoft.Extensions.Logging;
 using RB.TBC.FinalProject.Application.Interface;
 using RB.TBC.FinalProject.Application.Models;
+using RB.TBC.FinalProject.Application.Models.Response;
 using RB.TBC.FinalProject.Domain.Entitites;
 using RB.TBC.FinalProject.Domain.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RB.TBC.FinalProject.Application.Services
 {
@@ -41,27 +37,26 @@ namespace RB.TBC.FinalProject.Application.Services
         #endregion
 
         #region GetAllActiveAsync
-        public async Task<IEnumerable<FeadbackModel>> GetAllAsync()
+        public async Task<IEnumerable<FeadbackModelResponse>> GetAllAsync()
         {
             var ser = await work.GetAllAsync();
             if (ser.Any())
             {
                 var filtered = ser.Where(io => io.Status == true).ToList();
-                var mapped = mapper.Map<IEnumerable<FeadbackModel>>(filtered);
+                var mapped = mapper.Map<IEnumerable<FeadbackModelResponse>>(filtered);
                 return mapped;
             }
             throw new ArgumentNullException("Not found");
         }
         #endregion
 
-
         #region GetByIdAsync
-        public async Task<FeadbackModel> GetByIdAsync(string id)
+        public async Task<FeadbackModelResponse> GetByIdAsync(string id)
         {
             var ser = await work.GetByIdAsync(id);
             if (ser is not null)
             {
-                var mapped = mapper.Map<FeadbackModel>(ser);
+                var mapped = mapper.Map<FeadbackModelResponse>(ser);
                 return mapped;
             }
             throw new ArgumentNullException("Not Foun");

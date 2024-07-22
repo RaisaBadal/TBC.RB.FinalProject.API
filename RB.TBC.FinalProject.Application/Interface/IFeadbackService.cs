@@ -1,4 +1,5 @@
 ﻿using RB.TBC.FinalProject.Application.Models;
+using RB.TBC.FinalProject.Application.Models.Response;
 
 namespace RB.TBC.FinalProject.Application.Interface
 {
@@ -7,7 +8,7 @@ namespace RB.TBC.FinalProject.Application.Interface
         Task<string> AddAsync(FeadbackModel entity, string UserId, string UserName, string Email);
         Task<bool> RemoveAsync(string  id);
         Task<bool> SoftDeleteAsync(string id);
-        Task<IEnumerable<FeadbackModel>> GetAllAsync();
-        Task<FeadbackModel> GetByIdAsync(string id);
+        Task<IEnumerable<FeadbackModelResponse>> GetAllAsync();
+        Task<FeadbackModelResponse> GetByIdAsync(string id);
     }
 }
