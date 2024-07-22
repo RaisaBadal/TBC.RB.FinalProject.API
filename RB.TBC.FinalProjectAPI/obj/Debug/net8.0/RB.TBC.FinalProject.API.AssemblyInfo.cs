@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RB.TBC.FinalProject.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea17a99b407ed00ad47a7a1c00255e5ab39c8da8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+696f3178e781e8598b6c6bca019035064fa20228")]
 [assembly: System.Reflection.AssemblyProductAttribute("RB.TBC.FinalProject.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RB.TBC.FinalProject.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

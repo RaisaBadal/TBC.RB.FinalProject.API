@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|c:\\users\\aapkh\\source\\repos\\tbc.rb.finalproject.api\\rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|solutionrelative:rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RB.TBC.FinalProjectAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Program.cs",
+              "RelativeToolTip": "RB.TBC.FinalProjectAPI\\Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T16:29:59.776Z",
+              "EditorCaption": ""
             }
           ]
         },
