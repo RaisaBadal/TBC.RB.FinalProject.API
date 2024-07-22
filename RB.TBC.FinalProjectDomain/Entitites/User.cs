@@ -18,5 +18,8 @@ namespace RB.TBC.FinalProject.Domain.Entitites
         public string UserName { get; set; }
 
         public string Password { get; set; }
+
+        public IEnumerable<Feadback> Feadbacks { get; set; }
+        public IEnumerable<Favorite> FavoriteBooks { get; set; }
     }
 }

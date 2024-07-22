@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RB.TBC.FinalProject.API</name>
+    </assembly>
+    <members>
+        <member name="T:RB.TBC.FinalProjectAPI.Controllers.AuthController">
+            <summary>
+            Controller for authentication operations.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.AuthController.#ctor(RB.TBC.FinalProject.Domain.Data.TbcDbContext,RB.TBC.FinalProject.Application.Persistance.SmtpService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProjectAPI.Controllers.AuthController"/> class.
+            </summary>
+            <param name="context">The database context.</param>
+            <param name="ser">The SMTP service for sending emails.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.AuthController.Login(RB.TBC.FinalProject.Application.Models.SignInRequest)">
+            <summary>
+            Authenticates the user and returns a JWT token.
+            </summary>
+            <param name="user">The sign-in request containing username and password.</param>
+            <returns>Returns an Ok result with the JWT token if authentication is successful; otherwise, Unauthorized.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.AuthController.Register(RB.TBC.FinalProject.Application.Models.UserRegisterRequest)">
+            <summary>
+            Registers a new user and sends a welcome email.
+            </summary>
+            <param name="user">The user registration request containing user details.</param>
+            <returns>Returns an Ok result if registration is successful; otherwise, BadRequest.</returns>
+        </member>
+        <member name="T:RB.TBC.FinalProjectAPI.Controllers.ContactUsController">
+            <summary>
+            Controller for handling Contact Us operations.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.ContactUsController.#ctor(RB.TBC.FinalProject.Application.Interface.IContactUsService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProjectAPI.Controllers.ContactUsController"/> class.
+            </summary>
+            <param name="ser">The service to handle Contact Us operations.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.ContactUsController.SendMessageToAdmin(RB.TBC.FinalProject.Application.Models.ContactUsModel)">
+            <summary>
+            Sends a message to the admin.
+            </summary>
+            <param name="model">The Contact Us model containing the message details.</param>
+            <returns>Returns Ok if the message is sent successfully; otherwise, BadRequest or InternalServerError.</returns>
+        </member>
+        <member name="T:RB.TBC.FinalProjectAPI.Controllers.FeadBackController">
+            <summary>
+            Class for Manage Feadback Related Operations
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.#ctor(RB.TBC.FinalProject.Application.Interface.IFeadbackService)">
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProjectAPI.Controllers.FeadBackController"/> class.
+            <param name="ser">The feadback service.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.AddAsync(RB.TBC.FinalProject.Application.Models.FeadbackModel)">
+             <summary>
+            Add New Feadbacks  to db 
+             </summary>
+             <returns>A response containing long </returns>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.GetAllAsync">
+            <summary>
+            Retrive All Feadbacks
+            </summary>
+            <returns>A response containing aList of Feadbacks </returns>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.GetByIdAsync(System.String)">
+            <summary>
+            Retrive Feadback by id 
+            </summary>
+            <returns>A response containing a feadback </returns>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.RemoveAsync(System.String)">
+             <summary>
+            Remove  Feadback from Database
+             </summary>
+             <returns>A response containing boolean </returns>
+        </member>
+        <member name="M:RB.TBC.FinalProjectAPI.Controllers.FeadBackController.SoftDeleteAsync(System.String)">
+             <summary>
+            Soft Delete  Feadback from Database 
+             </summary>
+             <returns>A response containing boolean </returns>
+        </member>
+        <member name="T:RB.TBC.FinalProject.API.Controllers.BookController">
+            <summary>
+            Controller for managing books.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.#ctor(RB.TBC.FinalProject.Application.Interface.IBookService,Microsoft.Extensions.Logging.ILogger{RB.TBC.FinalProject.API.Controllers.BookController})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProject.API.Controllers.BookController"/> class.
+            </summary>
+            <param name="bookService">The book service.</param>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.AddAsync(RB.TBC.FinalProject.Application.Models.BookModel)">
+            <summary>
+            Adds a new book.
+            </summary>
+            <param name="model">The book model.</param>
+            <returns>The created book ID.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.GetAllAsync">
+            <summary>
+            Gets all books.
+            </summary>
+            <returns>A list of books.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.GetByIdAsync(System.String)">
+            <summary>
+            Gets a book by ID.
+            </summary>
+            <param name="id">The book ID.</param>
+            <returns>The book.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.RemoveAsync(System.String)">
+            <summary>
+            Removes a book by ID.
+            </summary>
+            <param name="id">The book ID.</param>
+            <returns>No content if the book was removed.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.BookController.UpdateAsync(System.String,RB.TBC.FinalProject.Application.Models.BookModel)">
+            <summary>
+            Updates a book by ID.
+            </summary>
+            <param name="id">The book ID.</param>
+            <param name="model">The updated book model.</param>
+            <returns>No content if the book was updated.</returns>
+        </member>
+        <member name="T:RB.TBC.FinalProject.API.Controllers.FavoriteController">
+            <summary>
+            Controller for managing favorites.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.FavoriteController.#ctor(RB.TBC.FinalProject.Application.Interface.IFavoriteService,Microsoft.Extensions.Logging.ILogger{RB.TBC.FinalProject.API.Controllers.FavoriteController})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProject.API.Controllers.FavoriteController"/> class.
+            </summary>
+            <param name="favoriteService">The favorite service.</param>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.FavoriteController.AddAsync(RB.TBC.FinalProject.Application.Models.FavoriteModel)">
+            <summary>
+            Adds a new favorite.
+            </summary>
+            <param name="model">The favorite model.</param>
+            <returns>The created favorite ID.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.FavoriteController.GetAllAsync">
+            <summary>
+            Gets all favorites.
+            </summary>
+            <returns>A list of favorites.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.FavoriteController.GetByIdAsync(System.String)">
+            <summary>
+            Gets a favorite by user ID and book ID.
+            </summary>
+            <param name="bookId">The book ID.</param>
+            <returns>The favorite.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.Controllers.FavoriteController.RemoveAsync(System.String)">
+            <summary>
+            Removes a favorite by user ID and book ID.
+            </summary>
+            <param name="bookId">The book ID.</param>
+            <returns>No content if the favorite was removed.</returns>
+        </member>
+        <member name="T:RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware">
+            <summary>
+            Middleware for handling exceptions and logging errors.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware"/> class.
+            </summary>
+            <param name="next">The next middleware in the pipeline.</param>
+            <param name="logger">The logger instance for logging errors.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invokes the middleware asynchronously.
+            </summary>
+            <param name="context">The HTTP context for the current request.</param>
+            <returns>A task that represents the completion of request processing.</returns>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.CustomMiddlwares.ExceptionMiddleware.HandleError(Microsoft.AspNetCore.Http.HttpContext,System.Exception)">
+            <summary>
+            Handles the error by writing an error response.
+            </summary>
+            <param name="context">The HTTP context for the current request.</param>
+            <param name="ex">The exception that occurred.</param>
+            <returns>A task that represents the completion of error handling.</returns>
+        </member>
+        <member name="T:RB.TBC.FinalProject.API.CustomMiddlwares.LoggingMiddleware">
+            <summary>
+            Middleware for logging HTTP requests and responses.
+            </summary>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.CustomMiddlwares.LoggingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger{RB.TBC.FinalProject.API.CustomMiddlwares.LoggingMiddleware})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RB.TBC.FinalProject.API.CustomMiddlwares.LoggingMiddleware"/> class.
+            </summary>
+            <param name="next">The next middleware in the pipeline.</param>
+            <param name="logger">The logger instance for logging information.</param>
+        </member>
+        <member name="M:RB.TBC.FinalProject.API.CustomMiddlwares.LoggingMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invokes the middleware asynchronously.
+            </summary>
+            <param name="context">The HTTP context for the current request.</param>
+            <returns>A task that represents the completion of request processing.</returns>
+        </member>
+    </members>
+</doc>

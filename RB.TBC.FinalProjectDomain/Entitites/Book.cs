@@ -7,10 +7,12 @@ namespace RB.TBC.FinalProject.Domain.Entitites
     public class Book
     {
         [Key]
-        public string Id { get; set; }
+        public string BookId { get; set; }
+        public string title { get; set; }
+        public IEnumerable<string> authors { get; set; }
+        public string imageLink { get; set; }
+        public string description { get; set; }
 
-        [ForeignKey("VolumeInfo")]
-        public  string VolumeInfoId { get; set; }
-        public VolumeInfo VolumeInfo { get; set; }
+        public IEnumerable<Favorite> FavoriteByUser { get; set; }
     }
 }

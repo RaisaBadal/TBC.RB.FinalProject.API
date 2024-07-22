@@ -11,10 +11,9 @@ namespace RB.TBC.FinalProject.Domain.Data
         {
 
         }
-
-        public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<VolumeInfo> VolumeInfos { get; set; }
-        public DbSet<ImageLinks> ImageLinks { get; set; }
+        public DbSet<Feadback> Feadbacks { get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
     }
 }

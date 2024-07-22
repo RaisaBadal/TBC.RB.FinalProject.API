@@ -1,26 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marjanishvili\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {}
+    "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marjanishvili\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
+    "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marjanishvili\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
         "projectName": "RB.TBC.FinalProject.Domain",
-        "projectPath": "C:\\Users\\marjanishvili\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
-        "packagesPath": "C:\\Users\\marjanishvili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marjanishvili\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
+        "projectPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+        "packagesPath": "C:\\Users\\TabaxmelaPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TabaxmelaPC\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marjanishvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TabaxmelaPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
