@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj": {}
+    "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj": {
+    "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
+        "projectUniqueName": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
         "projectName": "RB.TBC.FinalProject.Application",
-        "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
+        "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj",
         "packagesPath": "C:\\Users\\aapkh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aapkh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
+              "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
               }
             }
           }
@@ -53,6 +53,12 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -79,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj": {
+    "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
+        "projectUniqueName": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
         "projectName": "RB.TBC.FinalProject.API",
-        "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
+        "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
         "packagesPath": "C:\\Users\\aapkh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\obj\\",
+        "outputPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aapkh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,11 +110,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj": {
-                "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj"
+              "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj": {
+                "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProject.Application\\RB.TBC.FinalProject.Application.csproj"
               },
-              "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
+              "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
+                "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj"
               }
             }
           }
@@ -188,14 +194,14 @@
         }
       }
     },
-    "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
+    "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
         "projectName": "RB.TBC.FinalProject.Domain",
-        "projectPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
+        "projectPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\RB.TBC.FinalProject.Domain.csproj",
         "packagesPath": "C:\\Users\\aapkh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
+        "outputPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aapkh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,6 +241,12 @@
               "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             }

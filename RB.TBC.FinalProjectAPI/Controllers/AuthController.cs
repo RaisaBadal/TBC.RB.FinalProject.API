@@ -149,6 +149,7 @@ namespace RB.TBC.FinalProjectAPI.Controllers
                 Password = user.Password,
                 PhoneNumber = user.PhoneNumber,
                 UserName = user.UserName,
+                ImageUrl=user.ImageUrl,
                 UserId = Guid.NewGuid().ToString(),
             });
             _context.SaveChanges();

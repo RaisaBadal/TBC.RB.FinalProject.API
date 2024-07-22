@@ -11,8 +11,8 @@ using RB.TBC.FinalProject.Domain.Data;
 namespace RB.TBC.FinalProject.Domain.Migrations
 {
     [DbContext(typeof(TbcDbContext))]
-    [Migration("20240722060149_MigrateNow34548")]
-    partial class MigrateNow34548
+    [Migration("20240722104735_Migrations")]
+    partial class Migrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -117,6 +117,10 @@ namespace RB.TBC.FinalProject.Domain.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

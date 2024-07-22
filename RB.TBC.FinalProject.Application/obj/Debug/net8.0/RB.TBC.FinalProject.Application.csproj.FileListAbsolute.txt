@@ -42,3 +42,5 @@ C:\Users\aapkh\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Applicat
 C:\Users\aapkh\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\obj\Debug\net8.0\refint\RB.TBC.FinalProject.Application.dll
 C:\Users\aapkh\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\obj\Debug\net8.0\RB.TBC.FinalProject.Application.pdb
 C:\Users\aapkh\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\obj\Debug\net8.0\ref\RB.TBC.FinalProject.Application.dll
+C:\Users\aapkh\source\repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\bin\Debug\net8.0\RB.TBC.FinalProject.Application.runtimeconfig.json
+C:\Users\aapkh\source\repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\obj\Debug\net8.0\RB.TBC.FinalProject.Application.genruntimeconfig.cache

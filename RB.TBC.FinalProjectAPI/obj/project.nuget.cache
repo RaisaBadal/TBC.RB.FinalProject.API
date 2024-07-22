@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BV7C1x/VDms=",
+  "dgSpecHash": "e37bUiUdQTI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aapkh\\Source\\Repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
+  "projectFilePath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aapkh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\aapkh\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
