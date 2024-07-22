@@ -11,8 +11,10 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "MongoDB.Driver": "2.27.0",
           "RB.TBC.FinalProject.Application": "1.0.0",
           "RB.TBC.FinalProject.Domain": "1.0.0",
@@ -937,6 +939,9 @@
       "RB.TBC.FinalProject.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "RB.TBC.FinalProject.Domain": "1.0.0"
         },
@@ -947,7 +952,9 @@
       "RB.TBC.FinalProject.Domain/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.7",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.7"
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.7",
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.7",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "runtime": {
           "RB.TBC.FinalProject.Domain.dll": {}

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|c:\\users\\aapkh\\source\\repos\\tbc.rb.finalproject.api\\rb.tbc.finalprojectapi\\library.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|solutionrelative:rb.tbc.finalprojectapi\\library.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|c:\\users\\aapkh\\source\\repos\\tbc.rb.finalproject.api\\rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9C1F94F-4C95-4152-8F41-469516E9D522}|RB.TBC.FinalProjectAPI\\RB.TBC.FinalProject.API.csproj|solutionrelative:rb.tbc.finalprojectapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,12 +31,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Library.db",
+              "DocumentMoniker": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Library.db",
+              "RelativeDocumentMoniker": "RB.TBC.FinalProjectAPI\\Library.db",
+              "ToolTip": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Library.db",
+              "RelativeToolTip": "RB.TBC.FinalProjectAPI\\Library.db",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVDhPY2SAgsry0vsMDP8VoFwsgPHBn38Mgd3d3RegAkDl//9DWSADSv7/\u002BvULJwbJNzXUvi8tLTWAagEDJihNFEhITBbg5ebYj2wI0QYICAgwTJ82heH79\u002B8CLEz/90OFEQDdC3uOnPm/69ApFDEYBqmFasN0wdXbDxh2HDzJ8O79B4a3794zrN9\u002BgOHc5RtQWUyAYQALExPDt2/fGUz0NBlMDbQYvn3/xsDCgtunGDJ//v5l\u002BP37F8Pff38Z/gHZf37/Zvjz5y9UFhNgGPDz508GUOI4cPQUw74jJxgYgZxTZ88DXfIDogANYBhgpKvBEObnxsDHw8XwF2jzsxdPGR49eczQ0TeR4cbN21BVCIDTc4FeLgyezjYMHz98ZGirKWf48O4dAwcHG1QWAXCHDhB8/QoMQKCK3KJSBlZWZpSUCwN4DVBXVWaoKMpnsLG0YOjtaGNQVMDMKngNAAFuLi6G8NBgKA8TEDSAEEDKzsXA7MyIJzsjg/8P2jt7FRkYGBgAmdPDqvBXzR4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-22T17:10:11.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Program.cs",
               "RelativeDocumentMoniker": "RB.TBC.FinalProjectAPI\\Program.cs",
               "ToolTip": "C:\\Users\\aapkh\\source\\repos\\TBC.RB.FinalProject.API\\RB.TBC.FinalProjectAPI\\Program.cs",
               "RelativeToolTip": "RB.TBC.FinalProjectAPI\\Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF0AAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T16:29:59.776Z",
               "EditorCaption": ""
