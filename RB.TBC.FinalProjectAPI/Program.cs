@@ -91,7 +91,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddDbContext<TbcDbContext>(opt =>
 {
-    opt.UseSqlite("Data Source=Library.db");
+    opt.UseSqlite("Data Source=LibraryProduction.db");
 });
 
 builder.Services.AddSingleton<SmtpService>();

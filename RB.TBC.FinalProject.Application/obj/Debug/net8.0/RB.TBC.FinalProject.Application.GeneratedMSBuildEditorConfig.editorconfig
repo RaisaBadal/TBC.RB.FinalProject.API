@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RB.TBC.FinalProject.Application
-build_property.ProjectDir = C:\Users\aapkh\source\repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\
+build_property.ProjectDir = C:\Users\RAISA\Source\Repos\TBC.RB.FinalProject.API\RB.TBC.FinalProject.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
